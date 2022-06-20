@@ -1,0 +1,48 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  /* fonts */
+  .cocogoose-font {
+    font-family: "cocogoose", sans-serif;
+  }
+  
+  .font {
+    font-family: "Inter", sans-serif;
+  }
+  
+  .purple {
+    color: purple;
+  }
+  
+  .black-like {
+    color: rgb(39, 42, 49);
+  }
+  
+  .graylight {
+    color: #d3d3d3;
+  }
+  .close-icon-wrapper {
+    position: absolute;
+    top: 35px;
+    left: 86%;
+    list-style: none;
+    cursor: pointer;
+    filter: invert(37%) sepia(77%) saturate(2442%) hue-rotate(340deg) brightness(101%) contrast(85%);
+    transition: 0.5s;
+  }
+  
+  .display-b {
+    display: block !important;
+  }
+  
+  #nav-container .nav-socials-top {
+    display: none;
+  }
+  
+  #nav-container .logo-container {
+    display: none;
+  }
+  
