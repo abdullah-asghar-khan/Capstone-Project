@@ -492,5 +492,131 @@
       border: none;
     }
   
+    #headline div {
+      font-size: 2rem;
+    }
+  
+    #headline .headline-main-text {
+      font-size: 4rem;
+      line-height: 4.3rem;
+    }
 
+    #headline .home-headline-body {
+      max-width: 38rem;
+      border: 3px solid #fff;
+      margin: 2rem 0 3rem 0;
+      background-color: #fff;
+    }
+  
+    #headline .event-date {
+      font-size: 2rem;
+    }
+  
+    #headline .venue {
+      font-size: 1.5rem;
+    }
+  
+    .back-drop {
+      width: 100%;
+    }
+  
+    .back-drop .headline-bg-image {
+      background-position: 0% -10%;
+      background-repeat: no-repeat;
+      background-size: 100%;
+    }
+  
+    .faded-backdrop {
+      background: linear-gradient(to top, rgb(255, 255, 255) 50%, rgba(255, 255, 255, 0.6));
+    }
+  
+    .programs {
+      padding: 2rem 10%;
+    }
 
+    .program-list {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+  
+    .program-list li {
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: center;
+      margin: 0.2rem 0.2rem;
+      padding: 2rem;
+      max-width: 200px;
+    }
+  
+    .program-list h5 {
+      font-size: 1rem;
+      text-align: center;
+      margin: 0.5rem;
+    }
+  
+    .program-list p {
+      text-align: center;
+    }
+
+    .join-btn {
+      margin-bottom: 2rem;
+      font-size: 1rem;
+    }
+  
+    .program-header h4,
+    .perform-header h4,
+    .footer h4 {
+      font-size: 1.5rem;
+    }
+  
+    .performing-artists-section .more-btn {
+      display: none;
+    }
+
+    .footer {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      background-color: rgb(39, 42, 49);
+      padding: 1rem;
+      height: 250px;
+    }
+  
+    .footer h4 {
+      color: #d3d3d3;
+    }
+  
+    .home-footer .brand-support {
+      display: flex;
+      align-items: center;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 1.5rem 0 2rem;
+    }
+  
+    .brand-support img {
+      min-height: 46px;
+      flex: 1 0 auto;
+      padding: 0.5rem 2rem;
+    }
+
+    .copyright {
+      padding: 2rem 10%;
+      width: 100%;
+      background-color: #d3d3d3;
+      height: 160px;
+    }
+  
+    .copyright h6 {
+      padding: 1rem;
+      font-size: 1.2rem;
+      color: purple;
+      max-width: 100%;
+    }
+  
+    .copyright img {
+      width: 120px;
+    }
+  }
