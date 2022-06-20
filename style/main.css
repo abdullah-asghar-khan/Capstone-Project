@@ -106,4 +106,134 @@
     position: relative;
   }
 
+  #headline .headline-main-text {
+    padding-top: 1rem;
+    font-size: 28px;
+    font-weight: 300;
+    line-height: 34px;
+    color: purple;
+  }
+
+  #headline .home-headline-body {
+    margin: 1.2rem 0;
+    font-size: 14px;
+    font-style: normal;
+    line-height: 22px;
+    padding: 0 24px;
+    border: 2px solid #fff;
+    background-color: #fff;
+  }
   
+  #headline .venue {
+    font-size: 14px;
+  }
+
+  .programs {
+    padding: 1.6rem 1.5rem;
+    background-color: rgb(39, 42, 49);
+    color: #fff;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .programs .program-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+  }
+
+  .programs .join-btn {
+    padding: 20px;
+    background-color: grey;
+    color: #fff;
+    margin: 2rem 0.9rem auto;
+    width: max-content;
+    border: none;
+    border-radius: 1px;
+    opacity: 1;
+    transition: 0.3s;
+    z-index: 2;
+  }
+
+  .programs .join-btn:hover {
+    opacity: 0.6;
+    cursor: pointer;
+  }
+
+  .overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    transform: scale(0);
+    transition: 0.3s ease;
+    z-index: 2;
+  }
+
+  .artistBioContent {
+    background-color: rgba(11, 12, 15, 0.81);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+  }
+
+  .artist-content-image {
+    width: 60%;
+    height: 50%;
+    border: 1px solid red;
+    overflow: hidden;
+  }
+  
+  .artist-content-image img {
+    width: 100%;
+  }
+
+  .performing-artists li:hover .overlay {
+    transform: scale(1.5);
+  }
+  
+  .more-btn {
+    margin: 12px;
+    padding: 12px;
+    width: 100%;
+    background-color: red;
+    border: 1px solid rgba(78, 81, 91, 0.5);
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: #fff
+  }
+  
+  .more-btn i {
+    color: red;
+  }
+
+  .thin-line {
+    width: 2rem;
+    border-bottom: 2px solid purple;
+    margin: 1rem auto;
+  }
+
+  .performing-artists-section {
+    min-height: max-content;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1.6rem 1.5rem;
+    height: min-content;
+    color: rgb(39, 42, 49);
+  }
+
+
+  
+
+
