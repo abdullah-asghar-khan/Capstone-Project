@@ -233,6 +233,57 @@
     color: rgb(39, 42, 49);
   }
 
+  .performing-artists {
+    list-style: none;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px 10px;
+  }
+
+  @media screen and (min-width: 768px) {
+    .performing-artists {
+      padding: 1rem 10%;
+      grid-template-columns: repeat(2, minmax(303px, 1fr));
+    }
+  }
+  
+  .performing-artists .artist-card {
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+  }
+
+  @media screen and (max-width: 500px) {
+    .performing-artists .artist-card {
+      grid-template-columns: 1fr 2fr;
+      align-items: center;
+    }
+  }
+
+  .artist-image {
+    width: 160px;
+    height: 7rem;
+    position: relative;
+    font-size: 14px;
+    font-style: normal;
+    line-height: 22px;
+  }
+
+  @media screen and (max-width: 500px) {
+    .artist-image {
+      width: 130px;
+      height: 6rem;
+    }
+  }
+  
+  .artist-image img {
+    width: 140px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+  }
+
+  
 
   
 
