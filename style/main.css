@@ -47,7 +47,7 @@
 }
 
 #nav-container .hamburger {
-  width: 32px;
+  width: 25px;
 }
 
 .navbar {
@@ -177,7 +177,7 @@
   z-index: 2;
 }
 
-.artistBioContent {
+.speaker_list_item_content {
   background-color: rgba(11, 12, 15, 0.81);
   height: 100%;
   display: flex;
@@ -186,14 +186,14 @@
   color: #fff;
 }
 
-.artist-content-image {
+.speakers_list_item_img {
   width: 60%;
   height: 50%;
   border: 1px solid red;
   overflow: hidden;
 }
 
-.artist-content-image img {
+.speakers_list_item_img {
   width: 100%;
 }
 
@@ -222,7 +222,8 @@
   margin: 1rem auto;
 }
 
-.performing-artists-section {
+
+.speakers_list_item {
   min-height: max-content;
   background-color: #fff;
   display: flex;
@@ -260,7 +261,7 @@
   }
 }
 
-.artist-image {
+.speakers_list_item_img {
   width: 160px;
   height: 7rem;
   position: relative;
@@ -270,26 +271,30 @@
 }
 
 @media screen and (max-width: 500px) {
-  .artist-image {
+  .speakers_list_item_img {
     width: 130px;
     height: 6rem;
   }
 }
 
-.artist-image img {
+.speakers_list_item_img {
   width: 140px;
   position: absolute;
   right: 0;
   bottom: 0;
 }
 
+img {
+  width: 150px;
+}
+
 @media screen and (max-width: 500px) {
-  .artist-image img {
+  .speakers_list_item_img {
     width: 120px;
   }
 }
 
-.artist-bio {
+.speaker_list_item_content {
   padding: 0.6rem;
 }
 
@@ -302,11 +307,11 @@
   margin-top: 5px;
 }
 
-.artist-bio p {
+.speaker_list_item_content_bio {
   font-size: 12px;
   font-style: normal;
   line-height: 14px;
-  color: red;
+  color: white;
 }
 
 .program-list {
