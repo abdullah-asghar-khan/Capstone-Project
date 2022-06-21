@@ -25,3 +25,12 @@ const drummers = [
 
 ];
 
+const DOM = (() => {
+  function createElement(elem, className = null) {
+    const element = document.createElement(elem);
+    if (className !== null) {
+      element.classList.add(className);
+    }
+    return element;
+  }
+
