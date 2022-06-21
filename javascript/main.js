@@ -58,6 +58,27 @@ const DOM = (() => {
     img.alt = name;
     artistImageHolder.appendChild(img);
 
+    const artistBioHolder = createElement('div', 'artist-bio');
+    const artistName = createElement('h4');
+    artistName.innerText = name;
+    const artistBio = createElement('p', 'brief-bio');
+    artistBio.innerText = bio;
+    const thinLine = createElement('div', 'thin-line');
+    const artistBio2 = createElement('p', 'artist-bio-2');
+    artistBio2.innerText = contentBio;
+    artistBioHolder.append(artistName, artistBio, thinLine, artistBio2);
+
+    artistCard.append(artistImageHolder, artistBioHolder);
+    if (performingArtists) {
+      performingArtists.appendChild(artistCard);
+    }
+  }
+
+  function showCard() {
+    drummers.map((drummer) => createCard(drummer));
+  }
+  showCard();
+
     
 
 
