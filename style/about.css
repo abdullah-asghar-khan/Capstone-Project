@@ -1,134 +1,135 @@
 .logo {
-    width: 45%;
-  }
-  
-  .navbar {
-    display: flex;
-  }
-  
-  .about-nav-background {
-    background-color: rgb(246, 245, 245) !important;
-  }
-  
+  width: 45%;
+}
+
+.navbar {
+  display: flex;
+}
+
+.about-nav-background {
+  background-color: rgb(246, 245, 245) !important;
+}
+
+#about-headline-container {
+  padding: 0 1rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+#about-headline-container div {
+  padding: 1rem;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+#about-headline-container h1 {
+  text-align: center;
+  margin-bottom: 2rem;
+  font-weight: bold;
+  max-width: 30rem;
+}
+
+#about-headline-container .about-headline-body {
+  text-align: center;
+  padding: 1rem 0.5rem;
+  background-color: #fff;
+  border: 1px solid rgba(121, 125, 136, 0.2);
+  box-shadow: 0 2px 7px 0 #dee1e2;
+  font-size: 14px;
+  font-style: normal;
+  line-height: 22px;
+  color: rgb(74, 74, 74);
+}
+
+.about-headline-body + p {
+  text-align: center;
+  margin: 0 2rem;
+  padding: 2rem 1rem;
+  font-size: 14px;
+  font-style: normal;
+  line-height: 22px;
+}
+
+.contact-us {
+  color: rgb(39, 42, 49);
+  font-weight: 800;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgb(39, 42, 49);
+  padding: 1rem;
+}
+
+.footer h3 {
+  color: #d3d3d3;
+}
+
+.about-footer .brand-support {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.about-footer .brand-support img {
+  width: 20%;
+  padding: 0.5rem 0.5rem;
+}
+
+#about-brand {
+  padding: 1.8rem 10%;
+}
+
+#about-brand h3 {
+  text-align: center;
+}
+
+#about-brand p {
+  font-size: 12px;
+  text-align: center;
+}
+
+#about-brand .brand-logo {
+  display: flex;
+  justify-content: center;
+  padding: 3.5rem 0;
+}
+
+@media screen and (min-width: 768px) {
   #about-headline-container {
-    padding: 0 1rem;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
+    padding: 5rem 10%;
+    background-color: rgb(246, 245, 245);
   }
+
   #about-headline-container div {
-    padding: 1rem;
-    font-size: 18px;
-    font-weight: 500;
+    display: none;
   }
-  
+
   #about-headline-container h1 {
-    text-align: center;
-    margin-bottom: 2rem;
-    font-weight: bold;
-    max-width: 30rem;
+    font-size: 3rem;
+    line-height: 4.3rem;
+    max-width: 40rem;
   }
-  
+
   #about-headline-container .about-headline-body {
-    text-align: center;
-    padding: 1rem 0.5rem;
-    background-color: #fff;
-    border: 1px solid rgba(121, 125, 136, 0.2);
-    box-shadow: 0 2px 7px 0 #dee1e2;
-    font-size: 14px;
-    font-style: normal;
-    line-height: 22px;
-    color: rgb(74, 74, 74);
-  }
-  
-  .about-headline-body + p {
-    text-align: center;
-    margin: 0 2rem;
-    padding: 2rem 1rem;
-    font-size: 14px;
-    font-style: normal;
-    line-height: 22px;
+    width: 60%;
+    padding: 1.6rem 2.5rem;
   }
 
-  .contact-us {
-    color: rgb(39, 42, 49);
-    font-weight: 800;
+  .about-footer .footer {
+    display: none;
   }
 
-  .footer {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
+  .about-footer .copyright {
     background-color: rgb(39, 42, 49);
-    padding: 1rem;
   }
-  
-  .footer h3 {
+
+  .about-footer .copyright h6 {
     color: #d3d3d3;
   }
-
-  .about-footer .brand-support {
-    display: flex;
-    align-items: center;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-  
-  .about-footer .brand-support img {
-    width: 20%;
-    padding: 0.5rem 0.5rem;
-  }
-  
-  #about-brand {
-    padding: 1.8rem 10%;
-  }
-  
-  #about-brand h3 {
-    text-align: center;
-  }
-  
-  #about-brand p {
-    font-size: 12px;
-    text-align: center;
-  }
-
-  #about-brand .brand-logo {
-    display: flex;
-    justify-content: center;
-    padding: 3.5rem 0;
-  }
-
-  @media screen and (min-width: 768px) {
-    #about-headline-container {
-      padding: 5rem 10%;
-      background-color: rgb(246, 245, 245);
-    }
-
-    #about-headline-container div {
-        display: none;
-      }
-    
-      #about-headline-container h1 {
-        font-size: 3rem;
-        line-height: 4.3rem;
-        max-width: 40rem;
-      }
-    
-      #about-headline-container .about-headline-body {
-        width: 60%;
-        padding: 1.6rem 2.5rem;
-      }
-
-      .about-footer .footer {
-        display: none;
-      }
-    
-      .about-footer .copyright {
-        background-color: rgb(39, 42, 49);
-      }
-    
-      .about-footer .copyright h6 {
-        color: #d3d3d3;
-      }
-    }
+}
