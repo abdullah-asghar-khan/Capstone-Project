@@ -76,7 +76,7 @@
   }
   
   .about-footer .brand-support img {
-    min-height: 46px;
+    width: 20%;
     padding: 0.5rem 0.5rem;
   }
   
@@ -104,4 +104,31 @@
       padding: 5rem 10%;
       background-color: rgb(246, 245, 245);
     }
+
+    #about-headline-container div {
+        display: none;
+      }
     
+      #about-headline-container h1 {
+        font-size: 3rem;
+        line-height: 4.3rem;
+        max-width: 40rem;
+      }
+    
+      #about-headline-container .about-headline-body {
+        width: 60%;
+        padding: 1.6rem 2.5rem;
+      }
+
+      .about-footer .footer {
+        display: none;
+      }
+    
+      .about-footer .copyright {
+        background-color: rgb(39, 42, 49);
+      }
+    
+      .about-footer .copyright h6 {
+        color: #d3d3d3;
+      }
+    }
