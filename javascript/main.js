@@ -34,3 +34,30 @@ const DOM = (() => {
     return element;
   }
 
+  const createCloseIcon = (location, closeWrap) => {
+    const closeIcon = createElement('img', 'close-icon');
+    const closeWrapper = createElement(closeWrap, 'close-icon-wrapper');
+    closeIcon.src = '../icons/close-icon.png';
+    closeIcon.alt = 'close icon';
+    closeWrapper.appendChild(closeIcon);
+    location.appendChild(closeWrapper);
+  };
+
+  function createCard({
+    name, image, bio, id, contentBio,
+  }) {
+    const performingArtists = document.querySelector('.performing-artists');
+    const artistCard = createElement('li', 'artist-card');
+    artistCard.id = id;
+
+    const artistImageHolder = createElement('div', 'artist-image');
+    const img = createElement('img');
+    const [image1] = image;
+    img.src = `${image1}`;
+    img.classList.add(`image-${id}`);
+    img.alt = name;
+    artistImageHolder.appendChild(img);
+
+    
+
+
