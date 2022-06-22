@@ -20,6 +20,30 @@ const drummers = [
     bio: ' By the time he was 17, he was performing professionally.',
     urlImage: 'images/John-Blackwell.jpg',
   },
+  {
+    name: 'Will Calhoun',
+    bio: 'Will Calhoun is a drummer from New York known for being a '
+       + 'member of the band Living Colour.',
+    contentBio: 'He has performed with Wayne Shorter, Jaco Pastorius, Marcus Miller, Mos Def, B.B. King, Paul Simon, Public Enemy, and Run-DMC. ',
+    image: ['images/Calhoun_Will-.jpg'],
+    id: 4,
+  },
+  {
+    name: 'Anika Niles',
+    bio: 'Anika Nilles became a YouTube sensation when she released her first video'
+      + '“Alter Ego.”',
+    contentBio: ' She started drumming when she was six years old and has since studied with master educators like Claus Hessler and Jost Nickel.',
+    image: ['images/Anika-Nilles.jpg'],
+    id: 5,
+  },
+  {
+    name: 'Matt Cameron',
+    bio: 'Cameron began performing professionally in San Diego when he was 14 years old',
+    contentBio: 'Matt Cameron is best known for his work with Soundgarden and Pearl Jam.',
+    image: ['images/Matt-Cameron.jpg'],
+    id: 6,
+
+  },
 ];
 
 const speakersContainer = document.querySelector('.speakers-container');
