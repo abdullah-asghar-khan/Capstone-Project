@@ -183,12 +183,14 @@
       padding: 5rem 10%;
       background-color: rgb(246, 245, 245);
     }
+
+    #about-headline-container div {
+      padding: 1rem;
+      font-size: 18px;
+      font-weight: 500;
+  }
   
     .nav-main {
-      display: none;
-    }
-  
-    #about-headline-container div {
       display: none;
     }
   

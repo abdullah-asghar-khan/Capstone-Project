@@ -13,7 +13,7 @@
 }
 
 .purple {
-  color: purple;
+  color: #ec5242;
 }
 
 .black-like {
@@ -63,14 +63,13 @@
   display: none;
 }
 
-/* Menu  */
-
 .nav-main {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 0 25px;
   height: 72px;
+  padding-left: 15%;
 }
 
 .bar {
@@ -169,7 +168,7 @@
 @media screen and (max-width: 768px) {
   .navlinks-wrapper li a {
     font-size: 1.2rem;
-    color: purple;
+    color: #ec5242;
   }
 }
 
@@ -224,7 +223,7 @@
 
 .programs .join-btn {
   padding: 20px;
-  background-color: grey;
+  background-color:  #ec5242;
   color: #fff;
   margin: 2rem 0.9rem auto;
   width: max-content;
@@ -289,12 +288,12 @@
 }
 
 .more-btn i {
-  color: red;
+  color: #ec5242;
 }
 
 .thin-line {
   width: 2rem;
-  border-bottom: 2px solid purple;
+  border-bottom: 2px solid #ec5242;
   margin: 1rem auto;
 }
 
@@ -423,7 +422,7 @@ img {
 .program-list li h5 {
   font-family: "cocogoose", sans-serif;
   font-weight: 200;
-  color: goldenrod;
+  color: #ec5242;
   padding: 0 0.75rem;
   min-width: 100px;
 }
@@ -475,12 +474,12 @@ img {
   display: flex;
   align-items: center;
   flex-direction: column;
-  background-color: greenyellow;
+  background-color: rgb(39, 42, 49);
   padding: 1rem;
 }
 
 .footer h4 {
-  color: red;
+  color: #d3d3d3;
 }
 
 .home-footer .brand-support {
@@ -558,13 +557,13 @@ img {
   }
 
   .navlinks-wrapper li:hover a {
-    color: red;
+    color: #ec5242;
   }
 
   .nav-join-btn {
     display: block;
     padding: 12px 0.5rem;
-    border: 4px solid green;
+    border: 4px solid #ec5242;
     color: red;
     background-color: #fff;
     min-width: max-content;
@@ -572,7 +571,7 @@ img {
   }
 
   .nav-join-btn:hover {
-    background-color: purple;
+    background-color:  rgba(236, 82, 66, 0.8);
     color: #fff;
     cursor: pointer;
     border: none;
@@ -707,7 +706,7 @@ img {
   .copyright h6 {
     padding: 1rem;
     font-size: 1.2rem;
-    color: purple;
+    color: rgb(39, 42, 49);
     max-width: 100%;
   }
 }
