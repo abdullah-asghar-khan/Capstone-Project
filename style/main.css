@@ -450,6 +450,15 @@ img {
   background-image: url(../icons/Meet-up-icon.gif);
 }
 
+.program-list .exhibition-icon {
+  background-image: url(../icons/Drum-exhibition.svg);
+  background-size: 105%;
+}
+
+.program-list .solo-icon {
+  background-image: url(../icons/drum-solo.svg);
+}
+
 .artist-bio p:nth-child(4) {
   color: rgb(39, 42, 49);
 }
