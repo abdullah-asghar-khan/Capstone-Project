@@ -1,11 +1,9 @@
-
-
 const drummers = [
   {
     id: 1,
     name: 'Aric Improta',
     topic: ' Aric Improta is an important figure in the development of the modern drum set.',
-    bio: 'Aric Improta is an explosive live performer, and one of drumming`s true showmen.',
+    bio: 'He is an explosive live performer, and one of drumming`s true showmen.',
     urlImage: 'images/aric-impronta.jpg',
   },
   {
@@ -49,3 +47,15 @@ drummers.forEach((speaker) => {
   speakersContainer.appendChild(speakerProject);
 });
 
+const hamburger = document.querySelector('.hamburger');
+const navMenu = document.querySelector('.nav-menu');
+
+hamburger.addEventListener('click', () => {
+  hamburger.classList.toggle('active');
+  navMenu.classList.toggle('active');
+});
+
+document.querySelectorAll('.nav-link').forEach((n) => n.addEventListener('click', () => {
+  hamburger.classList.remove('active');
+  navMenu.classList.remove('active');
+}));
