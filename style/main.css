@@ -40,11 +40,11 @@
   display: block !important;
 }
 
-#nav-container .nav-socials-top {
+.nav-container .nav-socials-top {
   display: none;
 }
 
-#nav-container .logo-container {
+.nav-container .logo-container {
   display: none;
 }
 
@@ -54,7 +54,7 @@
   z-index: 1;
 }
 
-#nav-container .hamburger {
+.nav-container .hamburger {
   width: 25px;
 }
 
@@ -172,7 +172,7 @@
   }
 }
 
-#headline {
+.headline {
   padding: 2rem 1rem 3.5rem;
   background-color: rgba(255, 255, 255, 0);
   background-repeat: no-repeat;
@@ -182,12 +182,12 @@
 }
 
 @media screen and (max-width: 768px) {
-  #headline {
+  .headline {
     background-image: url("../images/background-mobile.png");
   }
 }
 
-#headline .faded-backdrop {
+.headline .faded-backdrop {
   position: absolute;
   top: 0;
   left: 0;
@@ -197,12 +197,12 @@
   z-index: -2;
 }
 
-#headline > div {
+.headline > div {
   font-weight: 700;
   font-size: 18px;
 }
 
-#headline .headline-main-text {
+.headline .headline-main-text {
   padding-top: 1rem;
   font-size: 28px;
   font-weight: 300;
@@ -214,7 +214,7 @@
   color: transparent;
 }
 
-#headline .home-headline-body {
+.headline .home-headline-body {
   margin: 1.2rem 0;
   font-size: 14px;
   font-style: normal;
@@ -224,7 +224,7 @@
   background-color: #fff;
 }
 
-#headline .venue {
+.headline .venue {
   font-size: 14px;
 }
 
@@ -311,13 +311,13 @@ img {
 }
 
 .speaker_list_item_content {
-  background-color: rgba(11, 12, 15, 0.81);
   height: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
-  color: #fff;
+  color: black;
   width: 50%;
+  padding-left: 10px;
 }
 
 .speakers_list_item_img {
@@ -352,9 +352,7 @@ img {
   min-height: max-content;
   background-color: #fff;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 1.6rem 1.5rem;
+  padding: 1.6rem 0.5rem;
   height: min-content;
   color: rgb(39, 42, 49);
 }
@@ -452,7 +450,6 @@ img {
   padding: 0.75rem;
   display: flex;
   align-items: center;
-  padding-top: 20%;
   transition: 0.8s ease-in-out;
 }
 
@@ -527,7 +524,7 @@ img {
   line-height: 15px;
 }
 
-.footer {
+.partners {
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -535,11 +532,11 @@ img {
   padding: 1rem;
 }
 
-.footer h4 {
+.partners h4 {
   color: #d3d3d3;
 }
 
-.home-footer .brand-support {
+.home-partners .brand-support {
   display: flex;
   align-items: center;
   flex-direction: row;
@@ -547,7 +544,7 @@ img {
   justify-content: center;
 }
 
-.home-footer .brand-support img {
+.home-partners .brand-support img {
   min-height: 46px;
   flex: 1 0 auto;
   width: 25%;
@@ -556,7 +553,7 @@ img {
 }
 
 @media (min-width: 768px) {
-  #nav-container .nav-socials-top {
+  .nav-container .nav-socials-top {
     height: 33px;
     background-color: rgb(39, 42, 49);
     display: flex;
@@ -581,22 +578,22 @@ img {
     color: rgb(39, 42, 49);
   }
 
-  #nav-container .navbar {
+  .nav-container .navbar {
     padding: 0 10%;
     background-color: #fff;
     box-shadow: 0 5px 5px -4px #aaa;
   }
 
-  #nav-container .logo-container {
+  .nav-container .logo-container {
     display: block;
     flex-grow: 2;
   }
 
-  #nav-container .logo {
-    width: 120px;
+  .nav-container .logo {
+    width: 50px;
   }
 
-  #nav-container .hamburger-btn {
+  .nav-container .hamburger-btn {
     display: none;
   }
 
@@ -652,34 +649,34 @@ img {
     border: none;
   }
 
-  #headline {
+  .headline {
     padding: 5.5rem 10% 6rem 10%;
     background-image: url("../images/background-desktop.png");
     background-repeat: no-repeat;
     background-size: cover;
   }
 
-  #headline div {
+  .headline div {
     font-size: 2rem;
   }
 
-  #headline .headline-main-text {
+  .headline .headline-main-text {
     font-size: 4rem;
     line-height: 4.3rem;
   }
 
-  #headline .home-headline-body {
+  .headline .home-headline-body {
     max-width: 38rem;
     border: 3px solid #fff;
     margin: 2rem 0 3rem 0;
     background-color: #fff;
   }
 
-  #headline .event-date {
+  .headline .event-date {
     font-size: 2rem;
   }
 
-  #headline .venue {
+  .headline .venue {
     font-size: 1.5rem;
   }
 
@@ -733,7 +730,7 @@ img {
 
   .program-header h4,
   .perform-header h4,
-  .footer h4 {
+  .partners h4 {
     font-size: 1.5rem;
     text-align: center;
   }
@@ -742,7 +739,7 @@ img {
     display: none;
   }
 
-  .footer {
+  .partners {
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -750,11 +747,11 @@ img {
     padding: 1rem;
   }
 
-  .footer h4 {
+  .partners h4 {
     color: #d3d3d3;
   }
 
-  .home-footer .brand-support {
+  .home-partners .brand-support {
     display: flex;
     align-items: center;
     flex-direction: row;
@@ -774,7 +771,7 @@ img {
     width: 120px;
   }
 
-  .home-footer .brand-support img {
+  .home-partners .brand-support img {
     flex: 1 0 auto;
     width: 20%;
     padding: 0.5rem;

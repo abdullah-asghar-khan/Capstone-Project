@@ -15,7 +15,7 @@
   padding-left: 15%;
 }
 
-#about-container {
+.about-container {
   padding-left: 5%;
 }
 
@@ -87,28 +87,28 @@
   background-color: rgb(246, 245, 245) !important;
 }
 
-#about-headline-container {
+.about-headline-container {
   padding: 0 1rem;
   display: flex;
   align-items: center;
   flex-direction: column;
 }
 
-#about-headline-container div {
+.about-headline-container div {
   padding: 1rem;
   font-size: 18px;
   font-weight: 500;
   text-align: center;
 }
 
-#about-headline-container h1 {
+.about-headline-container h1 {
   text-align: center;
   margin-bottom: 2rem;
   font-weight: bold;
   max-width: 30rem;
 }
 
-#about-headline-container .about-headline-body {
+.about-headline-container .about-headline-body {
   text-align: center;
   padding: 1rem 0.5rem;
   background-color: #fff;
@@ -139,7 +139,7 @@
   padding: 0 1rem;
 }
 
-#past-global-drum-fest {
+.past-global-drum-fest {
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -147,7 +147,7 @@
   border-top: 1px solid rgba(121, 125, 136, 0.2);
 }
 
-#past-global-drum-fest p {
+.past-global-drum-fest p {
   text-align: center;
   font-size: 14px;
   font-style: normal;
@@ -163,6 +163,7 @@
   border: 1px solid rgba(121, 125, 136, 0.2);
   padding: 1rem;
   margin: 1rem;
+  
 }
 
 .past-image-courosal .courosal-image-card {
@@ -179,7 +180,7 @@
   object-fit: cover;
 }
 
-.past-image-courosal .courosal-image-fade {
+.past-image-courosal img .courosal-image-fade img {
   position: absolute;
   bottom: 0;
   left: 0;
@@ -233,32 +234,32 @@
   padding: 0.5rem 0.5rem;
 }
 
-#about-brand {
+.about-brand {
   padding: 1.8rem 10%;
 }
 
-#about-brand h3 {
+.about-brand h3 {
   text-align: center;
 }
 
-#about-brand p {
+.about-brand p {
   font-size: 12px;
   text-align: center;
 }
 
-#about-brand .brand-logo {
+.about-brand .brand-logo {
   display: flex;
   justify-content: center;
   padding: 3.5rem 0;
 }
 
 @media screen and (min-width: 768px) {
-  #about-headline-container {
+  .about-headline-container {
     padding: 5rem 10%;
     background-color: rgb(246, 245, 245);
   }
 
-  #about-headline-container div {
+  .about-headline-container div {
     padding: 1rem;
     font-size: 18px;
     font-weight: 500;
@@ -268,7 +269,7 @@
     display: none;
   }
 
-  #about-headline-container h1 {
+  .about-headline-container h1 {
     font-size: 3rem;
     line-height: 4.3rem;
     max-width: 40rem;
@@ -276,7 +277,7 @@
     margin: 0 auto;
   }
 
-  #about-headline-container .about-headline-body {
+  .about-headline-container .about-headline-body {
     width: 60%;
     padding: 1.6rem 2.5rem;
   }
@@ -288,27 +289,27 @@
     justify-content: space-between;
   }
 
-  #past-global-drum-fest {
+  .past-global-drum-fest {
     padding: 2rem 10%;
   }
 
-  #past-global-drum-fest .past-fest-header {
+  .past-global-drum-fest .past-fest-header {
     font-size: 1.5rem;
     color: rgb(39, 42, 49);
   }
 
-  #past-global-drum-fest > p {
+  .past-global-drum-fest > p {
     font-size: 1.2rem;
     color: rgb(39, 42, 49);
   }
 
-  #past-global-drum-fest .past-image-courosal {
+  .past-global-drum-fest .past-image-courosal {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
   }
 
-  #past-global-drum-fest .past-image-courosal .courosal-image-card {
+  .past-global-drum-fest .past-image-courosal .courosal-image-card {
     flex-basis: 47%;
   }
 
