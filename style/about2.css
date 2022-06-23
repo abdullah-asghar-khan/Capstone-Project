@@ -156,17 +156,48 @@
 
 .past-image-courosal {
   width: 100%;
+  overflow: hidden;
+  background: rgba(218, 52, 52, 0.561);
   border: 1px solid rgba(121, 125, 136, 0.2);
   padding: 1rem;
   margin: 1rem;
+  position: relative;
 }
 
-.past-image-courosal .courosal-image-card {
-  height: 200px;
+.text-on-image {
+  position: absolute;
+  bottom: 60px;
+  right: 100px;
+  color: white;
+  padding-left: 20px;
+}
+
+.text-on-image h1 {
+  position: absolute;
+  bottom: 105px;
+  right: 20px;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.text-on-image p {
+  bottom: 20px;
+  right: 20px;
+  color: white;
+  padding-bottom: 50%;
+  padding-left: 20px;
+  padding-right: 20px;
+  display: flex;
+  flex-direction: row;
+}
+
+.past-image-courosal img {
   width: 100%;
-  background-color: gray;
-  position: relative;
-  margin-bottom: 1rem;
+  background: red;
+  overflow: hidden;
+  object-fit: cover;
+  opacity: 0.4;
 }
 
 .past-image-courosal .courosal-image-card img {
@@ -282,6 +313,33 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+  }
+
+  .text-on-image {
+    position: absolute;
+    bottom: 60px;
+    color: white;
+    padding-left: 20px;
+  }
+
+  .text-on-image h1 {
+    position: absolute;
+    bottom: 250px;
+    right: 150px;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .text-on-image p {
+    bottom: 20px;
+    right: 300px;
+    color: white;
+    padding-bottom: 120%;
+    padding-left: 20px;
+    padding-right: 20px;
+    display: flex;
+    flex-direction: row;
   }
 
   .past-global-drum-fest {
