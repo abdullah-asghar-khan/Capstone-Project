@@ -1,44 +1,48 @@
 # Capstone-Project
  Drum Festival Global conference is a yearly drummer community event at the global level featuring world-class drummers from more than 100 countries.
 
-## Video describing this project
-
-[See Video Here] https://www.loom.com/share/6928ef9df1ac41148dc57b1e34f4a360
-
 ## Built With
 
 - HTML
 - CSS
-- ES6LINT
-- Javascript
+- JS
+
+
+## Live Demo
+
+- [Live Demo](https://abdullah2213565.github.io/Capstone-Project/)
+- [Video](https://www.loom.com/share/6928ef9df1ac41148dc57b1e34f4a360)
+
 
 ## Getting Started
 
 To get a local copy up and running follow these simple example steps.
 
-### Prerequisites
-- Basics of HTML
-- Basics of CSS
-- Basics of Linters
-- Basics of Javascript
-### Setup
-- To begin clone this repostory, use the git clone command.
+`gh repo clone Abdullah2213565/Capstone-Project`
 
+### Setup
+
+Dowload NPM and NODE
 ### Install
 
-## Authors
+Install the packages globally and after that:
 
-👤 **ABDULLAH ASGHAR**
+`npm install`
 
-- GitHub: [@Abdullah2213565](https://github.com/Abdullah2213565)
-- Twitter: [@twitterhandle] (https://twitter.com/dulakhan024)
+### Run tests
+
+`npx hint .`
+`npx stylelint "**/*.scss"`
+`npx eslint .`
+
+## Author
+
+- GitHub: [@githubhandle](https://github.com/Abdullah2213565)
+- Twitter: [@twitterhandle](https://twitter.com/dulakhan024)
 
 ## 🤝 Contributing
 
-
 Contributions, issues, and feature requests are welcome!
-
-Feel free to check the [issues page](../../issues/).
 
 ## Show your support
 
@@ -46,11 +50,8 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Microverse Team
-- Inspiration
-
+- [Microverse](https://www.microverse.com)
+- Thanks to [Cindy Shin](https://www.behance.net/adagio07) who designed this template on Behance
 ## 📝 License
 
 This project is [MIT](./MIT.md) licensed.
-
-
