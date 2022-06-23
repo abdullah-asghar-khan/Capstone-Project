@@ -154,16 +154,11 @@
   line-height: 22px;
 }
 
-.past-image-courosal img {
-  width: 100%;
-}
-
 .past-image-courosal {
   width: 100%;
   border: 1px solid rgba(121, 125, 136, 0.2);
   padding: 1rem;
   margin: 1rem;
-  
 }
 
 .past-image-courosal .courosal-image-card {
@@ -180,7 +175,7 @@
   object-fit: cover;
 }
 
-.past-image-courosal img .courosal-image-fade img {
+.past-image-courosal .courosal-image-fade {
   position: absolute;
   bottom: 0;
   left: 0;
