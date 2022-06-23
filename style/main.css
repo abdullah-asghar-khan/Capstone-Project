@@ -184,12 +184,37 @@
   position: relative;
 }
 
+@media screen and (max-width: 768px) {
+  #headline {
+    background-image: url("../images/background-mobile.png");
+  }
+}
+
+#headline .faded-backdrop {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100%;
+  background: linear-gradient(to top, rgb(255, 255, 255) 60%, rgba(255, 255, 255, 0.7));
+  z-index: -2;
+}
+
+#headline > div {
+  font-weight: 700;
+  font-size: 18px;
+}
+
 #headline .headline-main-text {
   padding-top: 1rem;
   font-size: 28px;
   font-weight: 300;
   line-height: 34px;
-  color: #ec5242;
+  background-image: url(https://images.pexels.com/photos/1458377/pexels-photo-1458377.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+  background-size: cover;
+  background-position: 0% 55%;
+  -webkit-background-clip: text;
+  color: transparent; 
 }
 
 #headline .home-headline-body {
@@ -222,6 +247,10 @@
   left: 0;
   height: 100%;
   width: 100%;
+  background-image: url(https://cdn.wallpapersafari.com/28/62/WhLiyU.png);
+  background-size: cover;
+  opacity: 0.052;
+  z-index: 1;
 }
 
 .programs .join-btn {
@@ -625,6 +654,13 @@ img {
     color: #fff;
     cursor: pointer;
     border: none;
+  }
+
+  #headline {
+    padding: 5.5rem 10% 6rem 10%;
+    background-image: url("../images/background-desktop.png");
+    background-repeat: no-repeat;
+    background-size: cover;
   }
 
   #headline div {
