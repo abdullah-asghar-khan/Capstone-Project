@@ -329,9 +329,6 @@
   width: 100%;
 }
 
-.performing-artists li:hover .overlay {
-  transform: scale(1.5);
-}
 
 .more-btn {
   margin: 12px;
@@ -355,6 +352,17 @@
 }
 
 .speakers_list_item {
+  min-height: max-content;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1.6rem 1.5rem;
+  height: min-content;
+  color: rgb(39, 42, 49);
+}
+
+.performing-artists-section {
   min-height: max-content;
   background-color: #fff;
   display: flex;
@@ -394,6 +402,16 @@
     grid-template-columns: 1fr 2fr;
     align-items: center;
   }
+}
+
+.artist-image {
+  width: 160px;
+  height: 7rem;
+  position: relative;
+  font-size: 14px;
+  font-style: normal;
+  line-height: 22px;
+
 }
 
 .speakers_list_item_img {
