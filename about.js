@@ -37,7 +37,4 @@ function showImages() {
 }
 showImages();
 
-return {
-  createElement, createCloseIcon, createCard, toggleCard,
-};
 
