@@ -99,6 +99,7 @@
   padding: 1rem;
   font-size: 18px;
   font-weight: 500;
+  text-align: center;
 }
 
 #about-headline-container h1 {
@@ -152,6 +153,10 @@
   font-size: 14px;
   font-style: normal;
   line-height: 22px;
+}
+
+.past-image-courosal img {
+  width: 100%;
 }
 
 .past-image-courosal {
@@ -209,6 +214,13 @@
   color: #d3d3d3;
 }
 
+.Past-events {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
 .about-footer .brand-support {
   display: flex;
   align-items: center;
@@ -261,11 +273,19 @@
     font-size: 3rem;
     line-height: 4.3rem;
     max-width: 40rem;
+    text-align: center;
+    margin: 0 auto;
   }
 
   #about-headline-container .about-headline-body {
     width: 60%;
     padding: 1.6rem 2.5rem;
+  }
+  .Past-events {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
   }
 
   #past-global-drum-fest {

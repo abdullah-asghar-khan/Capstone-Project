@@ -591,7 +591,12 @@ img {
     padding: 0 10%;
   }
 
-  
+  .speakers-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+  }
+
 .speakers_list_item {
     min-height: max-content;
     background-color: #fff;
