@@ -578,7 +578,7 @@ img {
 .home-footer .brand-support img {
   min-height: 46px;
   flex: 1 0 auto;
-  width: 50%;
+  width: 25%;
   padding: 0.5rem 0.5rem;
 }
 
@@ -783,6 +783,7 @@ img {
     flex-wrap: wrap;
     justify-content: center;
     padding: 1.5rem 0 2rem;
+    width: 50%;
   }
 
   .brand-support img {
