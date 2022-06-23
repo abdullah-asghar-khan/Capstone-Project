@@ -49,7 +49,6 @@
 }
 
 .nav-menu {
-  background-color: #242323;
   position: fixed;
   left: -150%;
   top: -20px;
@@ -215,10 +214,10 @@
 }
 
 .Past-events {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .about-footer .brand-support {
@@ -281,11 +280,12 @@
     width: 60%;
     padding: 1.6rem 2.5rem;
   }
+
   .Past-events {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
   }
 
   #past-global-drum-fest {

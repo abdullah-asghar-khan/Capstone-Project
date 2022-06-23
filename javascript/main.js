@@ -28,14 +28,14 @@ const drummers = [
     urlImage: 'images/Calhoun_Will-.jpg',
   },
   {
-  id: 5,
+    id: 5,
     name: 'Anika Niles',
     topic: 'Anika Nilles became a YouTube sensation when she released her first video',
     bio: 'She started drumming when she was six years old and has since studied with master educators like Claus Hessler and Jost Nickel.',
     urlImage: 'images/Anika-Nilles.jpg',
   },
   {
-  id: 6,
+    id: 6,
     name: 'Matt Cameron',
     topic: 'Cameron began performing professionally in San Diego when he was 14 years old',
     bio: 'Matt Cameron is best known for his work with Soundgarden and Pearl Jam.',
